@@ -1,0 +1,63 @@
+body{
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Danfo';
+    src: url('/Actividad 7/Fuente1/Danfo-Regular-VariableFont_ELSH.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Jacquard_12';
+    src: url('/Actividad 7/Fuente2/Jacquard12-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'TitillimWeb';
+    src: url('/Actividad 7/Fuentes/Titillium_Web/TitilliumWeb-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Sevillana';
+    src: url('/Actividad 7/Fuente3/Sevillana-Regular.ttf');
+}
+
+.danfoFont{
+    text-align: center;
+    font-family: 'Danfo';
+    font-weight: 900;
+    height: 200px;
+    font-size: large;
+}
+
+.jacquardFont{
+    text-align: justify;
+    font-family: 'Jacquard_12';
+    font-weight: 900;
+    height: 300px;
+    font-size: x-large;
+}
+
+.titilliumFont{
+    text-align: center;
+    font-family: 'TitillimWeb';
+    font-weight: bold;
+    height: 200px;
+    
+}
+
+.sevillanaFont{
+    text-align: justify;
+    font-family: 'Sevillana';
+    font-weight: bold;
+    font-size: x-large;
+}
